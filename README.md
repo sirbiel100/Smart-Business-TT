@@ -9,7 +9,7 @@
 
 ## Screenshot
 
-[](src/assets/techincal-test.png)
+[Desktop Preview](techincal-test.png)
 
 ## Strategy
 
