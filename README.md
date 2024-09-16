@@ -9,7 +9,7 @@
 
 ## Screenshot
 
-![](techincal-test.png)
+![](public/techincal-test.png)
 
 ## Strategy
 
