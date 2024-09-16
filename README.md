@@ -9,7 +9,7 @@
 
 ## Screenshot
 
-[Desktop Preview](techincal-test.png)
+![](techincal-test.png)
 
 ## Strategy
 
