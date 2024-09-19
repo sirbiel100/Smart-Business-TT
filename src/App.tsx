@@ -20,9 +20,10 @@ function App() {
   if (error) return <div>Error: {error}</div>;
   
   return (
-    <section className="appSection">
+    <>
       <FilteredItems />
       <table className="table" id="myTable">
+        <thead>
         <tr>
           <th>ID</th>
           <th>Name</th>
@@ -30,6 +31,8 @@ function App() {
           <th>Email</th>
           <th>Phone</th>
         </tr>
+        </thead>
+        <tbody>
         {users.map((name, index) => (
           <tr key={index}>
             <td>{name.id}</td>
@@ -39,8 +42,9 @@ function App() {
             <td>{name.phone}</td>
           </tr>
         ))}
+        </tbody>
       </table>
-    </section>
+    </>
   );
 }
 

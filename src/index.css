@@ -26,10 +26,16 @@
   padding: 0;
 }
 
+html{
+  max-width: 100vw;
+  height: 100vh;
+  height: 100svh;
+}
+
 body{
   display: grid;
   place-items: center;
-  min-height: 100vh;
-  min-height: 100svh;
+  height: 100vh;
+  height: 100svh;
   background: linear-gradient(135deg, var(--Mint_Green), var(--Light_Blush_Pink));
 }

@@ -1,14 +1,13 @@
-.appSection{
-  display: flex;
-  flex-direction: column-reverse;
-  gap: 2em;
-}
-
 .table{
   font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
+  font-size: .8em;
   background-color: var(--Light_Gray);
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+  overflow-x: auto;
+  border-spacing: 0;
 }
 
 .table td, th{
@@ -18,9 +17,13 @@
   cursor: default;
 }
 
-.table tr:nth-child(1){
+.table thead tr{
   background-color: var(--Slate_Gray) !important;
   color: var(--White);
+}
+
+.table tbody {
+  white-space: nowrap;
 }
 
 .table tr:nth-child(odd){
@@ -34,4 +37,15 @@
 .table tr:hover:not(:nth-child(1)){
   background-color: var(--Cool_Gray);
   transition: all 200ms ease;
+}
+
+.table th:last-child, td:last-child{
+  border-top-width: 0;
+  border-left-width: 0;
+}
+
+@media screen and (min-width: 62em) {
+  .table{
+    max-width: 1000px;
+  }
 }
