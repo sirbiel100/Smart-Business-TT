@@ -2,7 +2,10 @@
 
 - Hello 😁, this is the techincall test made by Smart-Business!
 
+    - The challenge consist in make a user-friendly application fetching the data from a JSON Placeholder using Typescript, React and Redux.
+
 ## Summary
+
 1. [Screenshot](#screenshot)
 1. [Strategy](#strategy)
 1. [Challenges](#challenges)
